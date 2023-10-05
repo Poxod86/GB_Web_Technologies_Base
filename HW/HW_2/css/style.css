@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F2F5F9;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #EC1B09;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+}
